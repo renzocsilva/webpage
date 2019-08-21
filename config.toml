@@ -3,6 +3,7 @@
 baseurl = "http://renzocsilva.ca/"
 title = "Renzo C. Silva"
 relativeurls = true
+enableEmoji = true
 
 theme = "hugo-coder-portfolio"
 
@@ -53,17 +54,20 @@ disqusShortname = ""
     langseparator = "|"
 
 [[params.social]]
-    name = "GitHub"
+    name = "github"
     weight = 1
+    icon = "fab fa-github"
     url = "https://github.com/renzocsilva/"
 
 [[params.social]]
     name = "LinkedIn"
+    icon = "fab fa-linkedin"
     weight = 3
     url = "https://www.linkedin.com/in/renzocsilva/"
     
 [[params.social]]
     name = "Google Scholar"
+    icon = "ai ai-google-scholar-square"
     weight = 3
     url = "https://scholar.google.com/citations?user=i1JSv_cAAAAJ&hl=en"
     
@@ -85,7 +89,7 @@ disqusShortname = ""
             [[languages.en.menu.main]]
                 name = "About"
                 weight = 1.0
-                url = "about"
+                url = "http://renzocsilva.ca/about"
 
 #            [[languages.en.menu.main]]
 #                name = "Blog"
