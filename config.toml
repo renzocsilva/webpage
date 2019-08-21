@@ -56,18 +56,18 @@ disqusShortname = ""
 [[params.social]]
     name = "github"
     weight = 1
-    icon = "fab fa-github"
+    icon = "fab fa-github fa-2x"
     url = "https://github.com/renzocsilva/"
 
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fab fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/renzocsilva/"
     
 [[params.social]]
     name = "Google Scholar"
-    icon = "ai ai-google-scholar-square"
+    icon = "ai ai-google-scholar-square ai-2x"
     weight = 3
     url = "https://scholar.google.com/citations?user=i1JSv_cAAAAJ&hl=en"
     
