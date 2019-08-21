@@ -31,9 +31,9 @@ With 12 years of proactive participation in industrially-funded R&D&I projects, 
 - (2006-2008) **MSc in Chemistry (Chemistry and Natural Resources)**, Federal University of Espirito Santo, Brazil
 - (2003-2006) **BSc in Chemistry**, Federal University of Espirito Santo, Brazil
 
-# <i class="fas fa-laptop-code"></i> PROGRAMMING & STATISTICAL TOOLS
+# <i class="fas fa-laptop-code"></i> PROGRAMMING & DATA TOOLS
 ---------------------------
-- With hindsight, early exposures to [LOGO](https://en.wikipedia.org/wiki/Logo_(programming_language)) during elementary school, and [HTML](https://en.wikipedia.org/wiki/HTML) during high school have made me very comfortable with the concept of programming. Since 2018, I have invested time and effort to properly learn [R](https://www.r-project.org/), which has already brought good fruits both academically and professionaly. I have also learned to speak basic [SQL](https://en.wikipedia.org/wiki/SQL), [MySQL](https://en.wikipedia.org/wiki/MySQL) and (minimal so far) [DAX](https://en.wikipedia.org/wiki/Data_analysis_expressions). 
+- With hindsight, early exposures to [LOGO](https://en.wikipedia.org/wiki/Logo_(programming_language)) during elementary school, and [HTML](https://en.wikipedia.org/wiki/HTML) during high school have made me very comfortable with the concept of programming. Since 2018, I have invested time and effort to properly learn [R](https://www.r-project.org/), which has already brought good fruits both academically and professionaly. I have also learned to speak basic [SQL](https://en.wikipedia.org/wiki/SQL), [MySQL](https://en.wikipedia.org/wiki/MySQL) and (minimal so far) [DAX - PowerBI](https://en.wikipedia.org/wiki/Data_analysis_expressions). 
 - Regarding the statistical tools I have used: [Minitab](https://www.minitab.com/en-us/) in the good old days, [Matlab PLS_toolbox](http://eigenvector.com/software/pls-toolbox/) when things got serious, and recently **R** to push the boundaries of what is possible. I have working knowledge of the main supervised and unsupervised machine learning algorithms.
 
 
