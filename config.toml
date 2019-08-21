@@ -1,0 +1,107 @@
+#https://github.com/naro143/hugo-coder-portfolio
+
+baseurl = "/"
+title = "Renzo C. Silva"
+
+theme = "hugo-coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = ""
+
+[params]
+    author = "Renzo Silva"
+    description = "Renzo Silva's personal website"
+    keywords = "blog,developer,personal"
+    info = "SCIENTIST"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "Enter a text here."
+    fixedbarContent = ""
+    fixedbarContentAfter = ""
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Bottom sns share
+    snsShare = false
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = false
+    enableFacebookShare = false
+    enableHatenaShare = false
+    enableLineShare = false
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "GitHub"
+    weight = 1
+    url = "https://github.com/renzocsilva/"
+
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/renzocsilva/"
+    
+[[params.social]]
+    name = "Google Scholar"
+    weight = 3
+    url = "https://scholar.google.com/citations?user=i1JSv_cAAAAJ&hl=en"
+    
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Renzo C. Silva"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Renzo C. Silva"
+            info = "SCIENTIST"
+            description = "Renzo Silva's personal website"
+            keywords = "blog,scientist,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1.0
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 2.0
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "Projects"
+                weight = 3
+                url = "projects"
+                
+            [[languages.en.menu.main]]
+                name = "Apps"
+                weight = 4
+                url = "apps"
+                
+            [[languages.en.menu.main]]
+                name = "Contact me"
+                weight = 5
+                url = "contact"
