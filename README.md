@@ -1,3 +1,2 @@
-# web_hugo
-
-Webpage based on the [Academic](https://themes.gohugo.io/academic/) theme. 
+# Personal webpage
+Based on the [Hugo Coder](https://github.com/naro143/hugo-coder-portfolio) theme. 
