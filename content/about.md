@@ -15,9 +15,9 @@ With 12 years of proactive participation in industrially-funded R&D&I projects, 
 
 ---------------------------
 
-* Research Associate at the University of Calgary, [Department of Geoscience](ucalgary.ca/prg)
-* Co-Founder of [LysisLogic Scientific Inc.](lysislogic.com)
-* [Independent consultant](aimende.com)
+* Research Associate at the University of Calgary, [Department of Geoscience](http://ucalgary.ca/prg)
+* Co-Founder of [LysisLogic Scientific Inc.](http://lysislogic.com)
+* [Independent consultant](http://aimende.com)
 
 ---------------------------
 
