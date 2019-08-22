@@ -6,10 +6,19 @@
     <description>Recent content on Renzo C. Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Research data management: how to get to &#39;good enough&#39;</title>
+      <link>/post/research-data-management-how-to-get-to-good-enough/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/research-data-management-how-to-get-to-good-enough/</guid>
+      <description>Motivation and goals This post is fully inspired by Wilson et al. (2017), where a set of good enough practices in scientific computing are laid down. It is a mandatory annual reading. If you are doing research in the private sector or academia, and does not see any immediate benefit on adopting (any of) the steps shown therein, regardless if you hands-on programming… well, you better wake up because you may be stuck with old scientific practices that don’t fit in our current society anymore.</description>
+    </item>
     
     <item>
       <title>A personal website is born!</title>
@@ -17,18 +26,7 @@
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/a-personal-website-is-born/</guid>
-      <description>It was about time&amp;hellip; I&amp;rsquo;ve been thinking about having a personal website for quite a while now. Somewhere to host personal and professional ideas/experiences that may deserve such an dedicated outlet.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <description>It was about time&amp;hellip; I&amp;rsquo;ve been thinking about having a personal website for quite a while now. Somewhere to host personal and professional ideas/experiences that may deserve a dedicated outlet - aka brain dump. If any of the content presented herein is somehow useful, then I am coming one step closer to my major goal of paying back to the plethora of content contributors knitting such incredible open source communities I have been tapping knowledge from!</description>
     </item>
     
     <item>
@@ -58,6 +56,16 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <description> Portfolio Demo  Coder Portfolio This theme is created based on hugo-coder.
 I made it possible to tell yourself more by my change.
    </description>
+    </item>
+    
+    <item>
+      <title>Title</title>
+      <link>/post/template-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/template-a/</guid>
+      <description>Heading Body
+Cheers!</description>
     </item>
     
   </channel>

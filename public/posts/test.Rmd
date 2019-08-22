@@ -4,6 +4,7 @@ date: "2019-08-21"
 slug: a-personal-website-is-born
 tags: []
 title: A personal website is born!
+output: html
 ---
 
 ## It was about time...
@@ -15,6 +16,4 @@ Let's start with sharing (*and hopefully good karma!*): you can find the R-Blogd
 On a side note, here is a big shout-out to a few folks whose content and creativity indirectly inspired this initiative [Dean Atalli](https://deanattali.com/), [Yihui Xie](https://yihui.name) and [Bruno Hildenbrand](https://blog.hildenco.com/).
 
 **Cheers!**
-
-
 

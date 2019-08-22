@@ -1,0 +1,10 @@
+---
+title: k
+author: ''
+date: '2019-08-22'
+slug: k
+categories: []
+tags: []
+description: ''
+thumbnail: images/tn.png
+---

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Renzo C. Silva">
+    <meta name="description" content="/">
+    <meta name="keywords" content="blog,scientist,personal">
+    
+    <meta property="og:site_name" content="Renzo C. Silva">
+    <meta property="og:title" content="
+  Research data management: how to get to &#39;good enough&#39; - Renzo C. Silva
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/posts/research-data-management-how-to-get-to-good-enough/">
+    <meta property="og:image" content="/images/tn.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="/posts/research-data-management-how-to-get-to-good-enough/">
+    <meta name="twitter:image" content="/images/tn.png">
+
+    <base href="../../posts/research-data-management-how-to-get-to-good-enough/">
+    <title>
+  Research data management: how to get to &#39;good enough&#39; - Renzo C. Silva
+</title>
+
+    <link rel="canonical" href="../../posts/research-data-management-how-to-get-to-good-enough/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="../../css/normalize.min.css">
+    <link rel="stylesheet" href="../../css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="../../images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="Renzo C. Silva">
+      <link href="../../index.xml" rel="feed" type="application/rss+xml" title="Renzo C. Silva" />
+    
+
+    <meta name="generator" content="Hugo 0.57.2" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <script src="https://kit.fontawesome.com/f2c6b74af3.js"></script>
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="../../">Renzo C. Silva</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://renzocsilva.ca/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://renzocsilva.ca/posts">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Research data management: how to get to &#39;good enough&#39;</h1>
+      <h2 class="date">August 22, 2019</h2>
+
+      
+    </header>
+
+    
+
+
+<div id="motivation-and-goals" class="section level2">
+<h2>Motivation and goals</h2>
+<p>This post is fully inspired by <a href="https://doi.org/10.1371/journal.pcbi.1005510">Wilson et al. (2017)</a>, where a set of <strong>good enough practices</strong> in scientific computing are laid down. It is a mandatory annual reading. If you are doing research in the private sector or academia, and does not see any immediate benefit on adopting (any of) the steps shown therein, regardless if you hands-on programming… well, you better <strong>wake up</strong> because you may be stuck with old scientific practices that don’t fit in our current society anymore.</p>
+<p>Here I present a workflow, suggest external resources, share personal experiences and other considerations for those that have recognized the importance of changing their habits of research data management, but have not taken their first step in this journey.</p>
+<pre class="r"><code>x &lt;- seq(-2,2)
+plot(x)</code></pre>
+<p><img src="../../posts/2019-08-22-research-data-management-how-to-get-to-good-enough.en_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>You have started a project, then what? What are the rules regarding its data management? It is easy to get overwhelmed with suggested practices with verisonc ontrol software, collaboration, data analysis, manuscript writing. The amount of stuff on the internet is huge and sorting through the noise, and gathering energy to overcome the energy barrier and actually put a few of these suggested solutions in action is not easy. If you are doing research, which typically involve data collection and analyzing - well, in fact there is some scientific computing aspects in your life. You may not be a programmer but that’s not the point here. this post highlights the ‘good enough practices in scientific computing’ as published by Wilson et al. (2017).</p>
+</div>
+<div id="too-long-didnt-read" class="section level2">
+<h2>Too long, didn’t read</h2>
+<p>** A few simple but practical strategies to move towards research data management best practices are revised herein. is getting pushing academy towards data sharing and availability. Within industry-funded research, sponsors benefit the most when accessing data and leveraging their internal resources. **</p>
+<p>## Personal experiences</p>
+<p>At work, we deal with many sources of raw data, typically coming from analytical instruments but others from laboratory procedures. Data coming from instruments are immediatly backed-up in a few different locations, including off-site. Data from laboratory procedures are manually converted into raw data files and stored as well. Note that every team member has a smartpen capable of digitally recording all the laboratory notes. An SVN server provides version control capabilities, and users interaction are very straightfowards with TorsoiseSVN (the SVN server has also a system of back-ups). Regardless of the type of work done by the researcher within a project, “Commits” are expected as often as significant advances are made. For those projects/users working with coding, private GIT repos are also deployed in Github. For projects in which external access to data is required (e.g. out of campus stakeholders), a MySQL server hosted within the University data center feeds a R-Shiny application that stakeholders can interact with.</p>
+<p>It sounds like a lot, but in reality is not.</p>
+</div>
+<div id="line-up-your-resources" class="section level2">
+<h2>Line up your resources</h2>
+<p>IT solutions: if you have some bad blood with the IT folks in your organization, it is time to make piece with them, specially if you have no interest in deploying a few of these yourself. Train your team: get ready to submit you team to mandatory training.</p>
+</div>
+<div id="importance" class="section level2">
+<h2>Importance</h2>
+<p>Compliance to funding agency rules is just one part of it. I don’t know where it is, I have deleted it inadvertedly, my dog ate my data. Stakeholder enagement. De-personalizing a project</p>
+<p>In academia, people come and go, so such setting is a must</p>
+<p>Script to create directories</p>
+<p><strong>Cheers!</strong></p>
+</div>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+    </main>
+
+    
+
+  <script src="../../js/app.js"></script>
+  
+  </body>
+</html>
