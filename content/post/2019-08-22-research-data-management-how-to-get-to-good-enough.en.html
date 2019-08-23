@@ -11,30 +11,48 @@ thumbnail: images/tn.png
 
 
 
-<div id="motivation-and-goals" class="section level2">
-<h2>Motivation and goals</h2>
-<p>This post is fully inspired by <a href="https://doi.org/10.1371/journal.pcbi.1005510">Wilson et al. (2017)</a>, where a set of <strong>good enough practices</strong> in scientific computing are laid down. It is a mandatory annual reading. If you are doing research in the private sector or academia, and does not see any immediate benefit on adopting (any of) the steps shown therein, regardless if you hands-on programming… well, you better <strong>wake up</strong> because you may be stuck with old scientific practices that don’t fit in our current society anymore.</p>
-<p>Here I present a workflow, suggest external resources, share personal experiences and other considerations for those that have recognized the importance of changing their habits of research data management, but have not taken their first step in this journey.</p>
-<pre class="r"><code>x &lt;- seq(-2,2)
-plot(x)</code></pre>
-<p><img src="/post/2019-08-22-research-data-management-how-to-get-to-good-enough.en_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<p>You have started a project, then what? What are the rules regarding its data management? It is easy to get overwhelmed with suggested practices with verisonc ontrol software, collaboration, data analysis, manuscript writing. The amount of stuff on the internet is huge and sorting through the noise, and gathering energy to overcome the energy barrier and actually put a few of these suggested solutions in action is not easy. If you are doing research, which typically involve data collection and analyzing - well, in fact there is some scientific computing aspects in your life. You may not be a programmer but that’s not the point here. this post highlights the ‘good enough practices in scientific computing’ as published by Wilson et al. (2017).</p>
+<div id="why-this-post" class="section level2">
+<h2><span style="color:darkred">Why this post?</span></h2>
+<p>Here I discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits of research data management, but have not taken their first step in this journey.</p>
+<p>This post is fully inspired by the nice (open access!) work of <a href="https://doi.org/10.1371/journal.pcbi.1005510">Wilson et al. (2017)</a>, in which a set of <strong>good enough practices</strong> in scientific computing is laid down. If you are an research in the private sector or academia, and does not see any immediate benefit on adopting (any of) the suggestions shown therein… well, you better <strong>wake up</strong> <em><a href="https://www.youtube.com/watch?v=TGcHisWvmuo">and smell the coffee</a></em>, because you may be stuck in old scientific practices that don’t fit in our current society anymore.</p>
 </div>
-<div id="too-long-didnt-read" class="section level2">
-<h2>Too long, didn’t read</h2>
-<p>** A few simple but practical strategies to move towards research data management best practices are revised herein. is getting pushing academy towards data sharing and availability. Within industry-funded research, sponsors benefit the most when accessing data and leveraging their internal resources. **</p>
-<p>## Personal experiences</p>
-<p>At work, we deal with many sources of raw data, typically coming from analytical instruments but others from laboratory procedures. Data coming from instruments are immediatly backed-up in a few different locations, including off-site. Data from laboratory procedures are manually converted into raw data files and stored as well. Note that every team member has a smartpen capable of digitally recording all the laboratory notes. An SVN server provides version control capabilities, and users interaction are very straightfowards with TorsoiseSVN (the SVN server has also a system of back-ups). Regardless of the type of work done by the researcher within a project, “Commits” are expected as often as significant advances are made. For those projects/users working with coding, private GIT repos are also deployed in Github. For projects in which external access to data is required (e.g. out of campus stakeholders), a MySQL server hosted within the University data center feeds a R-Shiny application that stakeholders can interact with.</p>
-<p>It sounds like a lot, but in reality is not.</p>
+<div id="context" class="section level2">
+<h2><span style="color:darkred">Context</span></h2>
+<p>Here I refer to again to <a href="https://doi.org/10.1371/journal.pcbi.1005510">Wilson et al. (2017)</a>, and recommend reading, in particular, the data management section <em>(~1100 words total, so have a go at it!)</em>.</p>
+<ol style="list-style-type: decimal">
+<li>Save the raw data.<br />
+</li>
+<li>Ensure that raw data are backed up in more than one location.<br />
+</li>
+<li>Create the data you wish to see in the world.<br />
+</li>
+<li>Create analysis-friendly data.<br />
+</li>
+<li>Record all the steps used to process data.<br />
+</li>
+<li>Anticipate the need to use multiple tables, and use a unique identifier for every record.<br />
+</li>
+<li>Submit data to a reputable DOI-issuing repository so that others can access and cite it.</li>
+</ol>
+<p>It may seem like a big mountain to climb, but every journey starts with…<em>dramatic pause</em>… yeah, you know the cliche.</p>
 </div>
-<div id="line-up-your-resources" class="section level2">
-<h2>Line up your resources</h2>
-<p>IT solutions: if you have some bad blood with the IT folks in your organization, it is time to make piece with them, specially if you have no interest in deploying a few of these yourself. Train your team: get ready to submit you team to mandatory training.</p>
+<div id="is-there-help" class="section level2">
+<h2><span style="color:darkred">Is there help?</span></h2>
+<p>If your organization has some IT resources you can access, <strong>items 1 &amp; 2</strong> are just one phone call or e-mail, plus a few dollar and hours away from being done. Also ask for help with training, scheduled back-ups, and enforcing! <em>(more on enforcing later)</em> Note: by raw data, we mean not altered in any way, as they come from their sources. Also, make sure the raw data is protected from editing (i.e., read-only).</p>
+<p><strong>Item 3</strong> is a very important one, but often neglected. You do want to improve its readability for future reuse (by humans and bots). If not for the others and for the good of science, at least do it for selfish reasons as <strong>YOU or YOUR TEAM</strong> may be the ones wanting to reuse it. Think about the file format, variables names and file name. There is tons of resources out there providing a few guidelines (see the abovementioned paper and references therein). I have taken the <a href="https://www.coursera.org/learn/data-management">Research Data Management and Sharing</a> course on Coursera and found it very useful. Note - I have been doing some searching on data from previous lives and now, 7+ years later, totally regret not having follow this advice back then.</p>
+<p>If you receive public funding for your research, you gotta pay close attention to their current or upcoming policies on research data management - it is such a hot topic right now. From the <a href="http://www.science.gc.ca/eic/site/063.nsf/eng/h_547652FB.html">national funding agencies in Canada</a>: <em>“[…] he agencies are committed to fostering a robust environment for data management in Canada and internationally, and to ensuring that Canadian researchers are well positioned to contribute to and capitalize on data-intensive science and scholarship. To support these commitments, the agencies expect the researchers they fund to manage their research data with the goal of realizing the greatest possible benefits for the research community and Canadian public.”</em></p>
+<p><strong>Item 4</strong>: make each column a variable, and each row an observation = analysis-friendly data. <strong>Jump</strong>. <strong>Item 6</strong>: anticipate the need to use multiple tables, and use a unique identifier for every record. I won’t go deeper into these at this point in time.</p>
+<p><strong>Item 5</strong>, <strong>record all the steps used to process data</strong>. You are about to archive some analysis-friendly data obtained from the raw data available in one of your back-ups. You want to make sure whatever you did, is reproducible! - If modifications were done via algorithms, show/store your code, good to go.<br />
+- If not, things become harder. You should try at least use a version control solution so whenever required you can trace back modifications to files within a project. Here, your IT team can also help. Else check these answers on StackOverflow for <a href="https://stackoverflow.com/questions/3376742/setup-an-svn-server">Windows</a>, <a href="https://stackoverflow.com/questions/60736/how-to-set-up-a-subversion-svn-server-on-gnu-linux-ubuntu">Linux</a>, and <a href="https://stackoverflow.com/questions/12530085/how-to-setup-svn-on-mac-os-x-10-8-2">Mac OS</a>, and also <a href="https://svnvsgit.com/">here</a> on why to pick SVN over GIT for our binary files.</p>
+<p>Park the data where people can easily access it, wither publicly or within your organization. DOI-issuing repositories are good as the data can be easily cited whenever necessary.</p>
 </div>
-<div id="importance" class="section level2">
-<h2>Importance</h2>
-<p>Compliance to funding agency rules is just one part of it. I don’t know where it is, I have deleted it inadvertedly, my dog ate my data. Stakeholder enagement. De-personalizing a project</p>
-<p>In academia, people come and go, so such setting is a must</p>
-<p>Script to create directories</p>
+<div id="personal-experiences" class="section level2">
+<h2><span style="color:darkred">Personal experiences</span></h2>
+<p>At work, we deal with many sources of raw scientific data. Data coming from instruments are immediatly backed-up in a few different locations, including off-site. Data from laboratory procedures are manually converted into raw data files and stored as well. Every team member has a smartpen capable of digitally recording all the laboratory notes. An SVN server provides version control capabilities, and users interaction are very straightfowards with TorsoiseSVN. Needless to say, the SVN server has also a system of back-ups.</p>
+<p>Regardless of the type of work done by the researcher within a project, “commits” are expected as often as significant advances are made. For those projects/users working with coding, private GIT repositories are also deployed in Github. For projects in which external access to data is required (e.g. off-campus stakeholders), a MySQL server hosted within the University data center feeds a R-Shiny dashboard where stakeholders can interact with data and reports.</p>
+</div>
+<div id="out-of-place" class="section level2">
+<h2>Out of place</h2>
+<p>I don’t know where it is, I have deleted it inadvertedly, my dog ate my data. Stakeholder enagement. De-personalizing a project In academia, people come and go, so such setting is a must Script to create directories</p>
 <p><strong>Cheers!</strong></p>
 </div>
