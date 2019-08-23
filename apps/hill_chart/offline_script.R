@@ -6,6 +6,8 @@ library(RColorBrewer)
 ### Get User input
 u <- 50
 sd <- 20
+base <- data.frame(x = seq(0, 100, length=100), y = dnorm(seq(0, 100, length=100), mean=u, sd=sd))
+
 
 ### Note: $Task and $Levels are users input from the shiny app
 
