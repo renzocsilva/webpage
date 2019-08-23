@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Renzo C. Silva">
+    <meta name="description" content="/">
+    <meta name="keywords" content="blog,scientist,personal">
+    
+    <meta property="og:site_name" content="Renzo C. Silva">
+    <meta property="og:title" content="
+  Research data management: thoughts regarding the &#34;good enough&#34; practices - Renzo C. Silva
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/posts/research-data-management-thoughts-good-enough/">
+    <meta property="og:image" content="/images/tn.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="/posts/research-data-management-thoughts-good-enough/">
+    <meta name="twitter:image" content="/images/tn.png">
+
+    <base href="../../posts/research-data-management-thoughts-good-enough/">
+    <title>
+  Research data management: thoughts regarding the &#34;good enough&#34; practices - Renzo C. Silva
+</title>
+
+    <link rel="canonical" href="../../posts/research-data-management-thoughts-good-enough/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="../../css/normalize.min.css">
+    <link rel="stylesheet" href="../../css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="../../images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="Renzo C. Silva">
+      <link href="../../index.xml" rel="feed" type="application/rss+xml" title="Renzo C. Silva" />
+    
+
+    <meta name="generator" content="Hugo 0.57.2" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <script src="https://kit.fontawesome.com/f2c6b74af3.js"></script>
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="../../">Renzo C. Silva</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://renzocsilva.ca/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://renzocsilva.ca/posts">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Research data management: thoughts regarding the &#34;good enough&#34; practices</h1>
+      <h2 class="date">August 23, 2019</h2>
+
+      
+    </header>
+
+    
+
+
+<div id="why-this-post" class="section level2">
+<h2><span style="color:darkred">Why this post?</span></h2>
+<p>This post is inspired by the nice (open access!) work of <a href="https://doi.org/10.1371/journal.pcbi.1005510">Wilson et al. (2017)</a>, in which a set of <strong>good enough practices</strong> in scientific computing is laid down.</p>
+<p>Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits of research data management, but have not taken their first step in this journey.</p>
+<p><em>If you are a researcher in the private sector or academia, and does not see any immediate benefit on adopting (any of) the suggestions shown therein… well, you better <strong>wake up</strong> </em><a href="https://www.youtube.com/watch?v=5mDrPKFsDVE">(and smell the coffee)</a><em>, because you may be stuck in old scientific practices that don’t fit in our current society anymore.</em></p>
+</div>
+<div id="data-management-good-enough-practices" class="section level2">
+<h2><span style="color:darkred">Data management good enough practices</span></h2>
+<p>Here is the checklist proposed by <a href="https://doi.org/10.1371/journal.pcbi.1005510">Wilson et al. (2017)</a> <em>(~1100 words total, so have a go at the comments they make on each topic!)</em>:</p>
+<p><strong>1. </strong>Save the raw data.<br />
+<strong>2. </strong>Ensure that raw data are backed up in more than one location.<br />
+<strong>3. </strong>Create the data you wish to see in the world.<br />
+<strong>4. </strong>Create analysis-friendly data.<br />
+<strong>5. </strong>Record all the steps used to process data.<br />
+<strong>6. </strong>Anticipate the need to use multiple tables, and use a unique identifier for every record.<br />
+<strong>7. </strong>Submit data to a reputable DOI-issuing repository so that others can access and cite it.</p>
+<p>It may seem like a big mountain to climb, but every journey starts with…<em>(dramatic pause)</em>… yeah, you know the cliche. 😉 <code>I am encouraging you to go past the energy of activation</code>.</p>
+<p align="center">
+<iframe src="https://giphy.com/embed/oQBGUspHX6JNe" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
+<p>
+<a href="https://giphy.com/gifs/scary-climb-aligator-oQBGUspHX6JNe"></a>
+</p>
+</p>
+</div>
+<div id="is-there-help" class="section level2">
+<h2><span style="color:darkred">Is there help?</span></h2>
+<p><strong>Items 1 &amp; 2</strong>: If your organization has some IT resources you have access to, <strong>items 1 &amp; 2</strong> are just one phone call or e-mail, plus a few dollars and hours away from being done. Don’t be shy and also ask for help with training and scheduled back-ups! <strong>Note:</strong> raw data means not altered in any way, exactly as they come from their sources - ensure the raw data is protected from editing (i.e., read-only). Set you team free for experimenting without the worry of unintantionally damaging you dataset integrity.</p>
+<p><strong>Item 3</strong>: is a very important one, but easily neglected. You do want to improve data readability for future reuse (by humans and bots). If not for the others, and for the good of science, selfish reasons may make you act because <strong>YOU or YOUR TEAM</strong> may be the ones wanting to reuse it. Think about the <strong>file format, variable and file names</strong>. There is tons of resources out there providing a guidelines on these topics. For a more formal training, check the <a href="https://www.coursera.org/learn/data-management">Research Data Management and Sharing</a> online course - I found it very useful.</p>
+<p><strong>Note - I have been doing some digging through my own datasets generated in previous lives, and now, 7+ years later, I humbly regret not having followed this advice back then.</strong></p>
+<p>If you receive public funding for your research, you gotta pay close attention to the current or upcoming policies on research data management set by the funding agencies - it is such a hot topic right now. <strong>In other words, something similar to <a href="http://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf">this</a> is coming your way!</strong></p>
+<p>From the <a href="http://www.science.gc.ca/eic/site/063.nsf/eng/h_547652FB.html">national funding agencies in Canada</a>:</p>
+<pre class="r{}"><code>&quot;[...] he agencies are committed to fostering a robust environment for data management in Canada and internationally, and to ensuring that Canadian researchers are well positioned to contribute to and capitalize on data-intensive science and scholarship. To support these commitments, the agencies expect the researchers they fund to manage their research data with the goal of realizing the greatest possible benefits for the research community and Canadian public.&quot;</code></pre>
+<p><strong>Item 4</strong>: let’s skip it for now - out of scope.</p>
+<p><strong>Item 5</strong>: record all the steps used to process data. You are about to archive some analysis-friendly data obtained from the raw data available in one of your back-ups. <strong>You want to make sure whatever you did, is reproducible!</strong> <em>(For a comprehensive taste of the reporducibily crisis in science, see <a href="https://www.nature.com/collections/prbfkwmwvz">this</a>))</em></p>
+<ul>
+<li>If changes to the raw data were done via algorithms, and you have a reproducible code for it, <strong>then you are good to go!</strong> 👏<br />
+</li>
+<li>If not, well, things can get much trickier. Do you really know all the options you clicked to make the spreadsheet you’ll be using in further data analysis? A <strong>version control software</strong> solution allows you to track modifications to files within a project. That’s not perfect for binary files but helps, and your IT team could assist you here. Feeling brave to give it a try yourself? Check these answers on StackOverflow for SVN solutions on <a href="https://stackoverflow.com/questions/3376742/setup-an-svn-server">Windows</a>, <a href="https://stackoverflow.com/questions/60736/how-to-set-up-a-subversion-svn-server-on-gnu-linux-ubuntu">Linux</a>, and <a href="https://stackoverflow.com/questions/12530085/how-to-setup-svn-on-mac-os-x-10-8-2">Mac OS</a>, and also <a href="https://svnvsgit.com/">here</a> on why to pick SVN over GIT for your binary files. If you <strong>combine a version control solution with effective back-ups</strong>, get ready to enjoy some serious piece of mind!.</li>
+</ul>
+<p><strong>Item 6</strong>: let’s skip it for now - out of scope.</p>
+<p><strong>Item 7</strong>: Park the data where people can easily access it, wether publicly or within your organization. DOI-issuing repositories are helpful as the data can be easily cited whenever necessary.</p>
+</div>
+<div id="personal-experience" class="section level2">
+<h2><span style="color:darkred">Personal experience</span></h2>
+<p>At work, we deal with many sources of raw scientific data. Data coming from instruments are immediatly backed-up in a few different locations, including off-site. Data from laboratory procedures are manually converted into raw data files and stored as well. Every team member has a smartpen capable of recording (and backing-up) all the laboratory notes they take (<strong>Items 1 and 2</strong>). An SVN server provides version control capabilities, and users interaction with it are very smooth with <a href="https://tortoisesvn.net/">TorsoiseSVN</a>. Needless to say, the SVN server is also properly backed up (<strong>Item 5</strong>). Sample and work request databases provide the context/metadata info for each acquired raw data as required.</p>
+<p>Regardless of the type of work done by the researcher within a project, SVN “commits” are expected as often as significant advances are made. For projects in which external access to data is required (e.g. off-campus stakeholders), a MySQL server hosted within the University data center feeds a R-Shiny dashboard where stakeholders can interact with data and reports (<strong>Items 3 and 7</strong>).</p>
+<p>Once you have a system in place, the challenge becomes training the team and enforcing adherence to the practices you adopt. In academia setting, with people coming and going at an accelerated rate, enforcing is particularly difficult - but there is hope. I’ll touch base on this again anytime soon.</p>
+</div>
+<div id="call-for-action" class="section level2">
+<h2><span style="color:darkred">Call for action</span></h2>
+<ul>
+<li><strong>Get help</strong> and start setting your back-up and version control system in place. Say goodbye to those days your data was at risk 24/7! <em>(no more <code>the dog ate my file</code> or <a href="https://www.us-cert.gov/Ransomware">I need $30k to get my data back</a> excuses)</em></li>
+<li>Enhance your literacy in reseach data management.</li>
+<li>Any advance is better than none. Set in your calendar to revisit this topic in 30 days and make sure you have taken solid steps towards better data management practices.</li>
+</ul>
+<p><strong>Cheers!</strong></p>
+</div>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+    </main>
+
+    
+
+  <script src="../../js/app.js"></script>
+  
+  </body>
+</html>
