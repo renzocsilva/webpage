@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiments on Renzo C. Silva</title>
+    <link>/experiments/</link>
+    <description>Recent content in Experiments on Renzo C. Silva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="/experiments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>/experiments/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/experiments/contact/</guid>
+      <description>HOME - What I am up to? I have been involved in several data projects, but most of them won&amp;rsquo;t see the light of the day. There are a few things though, mostly on the personal side, that I am eager to share - here you&amp;rsquo;ll find a list of such projects.
+Hill Charts  Summary: I have used this since the first day I came to know it via Basecamp - Hill Charts.</description>
+    </item>
+    
+  </channel>
+</rss>

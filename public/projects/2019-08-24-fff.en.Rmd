@@ -1,0 +1,10 @@
+---
+title: fff
+author: Renzo C. Silva
+date: '2019-08-24'
+slug: fff
+categories: []
+tags: []
+description: ''
+thumbnail: images/tn.png
+---

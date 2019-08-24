@@ -99,11 +99,6 @@ console.log(foo(5));
 
 ポートフォリオをこのShortCodeで作成できます。  
 
-```
-{% portfolio image="/images/tn.png" alt="Coder Portfolio" %}  
-作品の説明。  
-{% /portfolio %}  
-```
 
 実際に使用するときには、ShortCodeをさらに{}で囲ってください。
 

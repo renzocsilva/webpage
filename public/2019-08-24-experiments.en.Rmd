@@ -1,0 +1,18 @@
+---
+title: Experiments
+author: Renzo C. Silva
+date: '2019-08-24'
+slug: experiments
+categories: []
+tags: []
+description: ''
+thumbnail: images/tn.png
+---
+
+## HOME - What I am up to? 
+
+I have been involved in several data projects, but most of them won't see the light of the day. There are a few things though, mostly on the personal side, that I am eager to share - here you'll find a list of such projects.
+
+### Hill Charts
+- **Summary**: I have used this since the first day I came to know it via [Basecamp](https://basecamp.com/features/hill-charts) - Hill Charts. It is an intuitive way to track the advance of a given task, from conception to completion, and nicely see a high-level moving picture of a project. See my [blog post]() and [source code](https://github.com/renzocsilva/hill_chart).   
+

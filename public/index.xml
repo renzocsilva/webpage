@@ -6,10 +6,30 @@
     <description>Recent content on Renzo C. Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Experiments</title>
+      <link>/experiments/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/experiments/</guid>
+      <description>HOME - What I am up to? I have been involved in several data projects, but most of them won’t see the light of the day. There are a few things though, mostly on the personal side, that I am eager to share - here you’ll find a list of such projects.
+Hill Charts  Summary: I have used this since the first day I came to know it via Basecamp - Hill Charts.</description>
+    </item>
+    
+    <item>
+      <title>Experiments</title>
+      <link>/experiments/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/experiments/</guid>
+      <description>WHAT I AM UP TO? I am eager to share a few experiments &amp;amp; side-projects I have developed over the year. I have also a large wish list of things to complete so expect here a mix of past and future.
+HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know it via Basecamp. It is an intuitive way to track the advance of a given task, from conception to completion, while having a high-level moving picture of a project.</description>
+    </item>
     
     <item>
       <title>Research data management &amp; &#34;good enough&#34; practices</title>
@@ -47,26 +67,6 @@ Here I build on a subset of topics presented there, discuss a few key points, su
       
       <guid>/about/</guid>
       <description>IN A NUTSHELL With 12 years of proactive participation in industrially-funded R&amp;amp;D&amp;amp;I projects, I am enthusiastic about bridging academic and industrial resources to design, develop and deploy science-based solutions to real-world problems. I thrive on developing innovative analytical methods for complex mixture analysis, examining complex datasets, providing credible and meaningful assessments that create value for the project stakeholders, and presenting results in conferences, peer-reviewed papers or confidential reports. While pragmatic when dealing with the tasks at hand, innovation and groundbreaking thinking motivate me.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Want Contact? Have questions or suggestions? Feel free to open an issue on GitHub or ask me on Twitter.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/</guid>
-      <description> Portfolio Demo  Coder Portfolio This theme is created based on hugo-coder.
-I made it possible to tell yourself more by my change.
-   </description>
     </item>
     
     <item>

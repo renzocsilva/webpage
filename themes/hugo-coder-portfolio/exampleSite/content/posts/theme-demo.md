@@ -99,11 +99,6 @@ This is private content
 
 You can create portfolio content with this short code  
 
-```
-{% portfolio image="/images/tn.png" alt="Coder Portfolio" %}  
-Write portfolio content here  
-{% /portfolio %}  
-```
 
 When using for inspection, please add "{}" so that you can see the notation of shortcode
 
