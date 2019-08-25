@@ -1,7 +1,7 @@
 ---
 title: Hill Charts in R
 author: 'Renzo C. Silva'
-date: '2019-08-22'
+date: '2019-08-24'
 slug: hill-charts-in-r
 categories: []
 tags: []

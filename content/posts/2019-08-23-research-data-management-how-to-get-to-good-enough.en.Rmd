@@ -13,10 +13,7 @@ thumbnail: images/tn.png
   
 This post is inspired by the nice (open access!) work of [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510), in which a set of **good enough practices** in scientific computing is laid down. 
 
-Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits of research data management, but have not taken their first step in this journey.
-
-*If you are a researcher in the private sector or academia, and does not see any immediate benefit on adopting (any of) the suggestions shown therein... well, you better **wake up** *[(and smell the coffee)](https://www.youtube.com/watch?v=5mDrPKFsDVE)*, because you may be stuck in old scientific practices that don't fit in our current society anymore.*
-
+Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits on research data management, but are yet to take their first step in this journey.
 
 ## <span style="color:darkred">Data management good enough practices</span>
 
@@ -34,43 +31,51 @@ It may seem like a big mountain to climb, but every journey starts with...*(dram
 
 <p align = 'center'><iframe src="https://giphy.com/embed/oQBGUspHX6JNe" width="240" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/scary-climb-aligator-oQBGUspHX6JNe"></a></p></p>
 
-**I am encouraging you to go past the energy of activation`**
+*If you are a researcher in the private sector or academia, and does not see any immediate benefit on adopting (any of) the suggestions shown therein... well, you better **wake up** *[(and smell the coffee)](https://www.youtube.com/watch?v=5mDrPKFsDVE)*, because you may be stuck in old scientific practices that don't fit in our current society anymore.*  
+
+**I am encouraging you to go past the energy of activation**
 
 ## <span style="color:darkred">Is there help?</span>
 
 **Items 1 & 2: Save the raw data. Ensure that raw data are backed up in more than one location.**  
 
-If your organization has some IT resources you have access to, **items 1 & 2** are just one phone call or e-mail, plus a few dollars and hours away from being done. Don't be shy and also ask for help with training and scheduled back-ups! **Note:** raw data means not altered in any way, exactly as they come from their sources - ensure the raw data is protected from editing (i.e., read-only). Set you team free for experimenting without the worry of unintantionally damaging you dataset integrity.
-
+If your organization has some IT resources that you can access, **items 1 & 2** are just one phone call or e-mail, plus a few dollars and hours away from being done. Don't be shy and also ask for help with the training of your team, and scheduled back-ups. **Note:** raw data means data that were not altered in any way, exactly as they come from their sources - ensure these files are protected from editing (i.e., read-only). Set you team free for experimenting without the worry of unintantionally damaging you dataset integrity.
+  
+  
 **Item 3: Create the data you wish to see in the world.**  
 
-this is a very important item, but easily neglected. You do want to improve data readability for future reuse (by humans and bots). If not for the others, and for the good of science, selfish reasons may make you act because **YOU or YOUR TEAM** may be the ones wanting to reuse it. Think about the **file format, variable and file names**. There is tons of resources out there providing a guidelines on these topics. For a more formal training, check the [Research Data Management and Sharing](https://www.coursera.org/learn/data-management) online course - I found it very useful.
+You do want to improve your data readability for future reuse (by humans and bots). If not for the others, and for the good of science, selfish reasons may make you act because **YOU or YOUR TEAM** may be the ones wanting to reuse it. Think about the **file format, variable and file names**. Online resources providing guidelines on these topics are abundant. I found the [Research Data Management and Sharing](https://www.coursera.org/learn/data-management) course quite useful in this regard.
 
 **Note - I have been doing some digging through my own datasets generated in previous lives, and now, 7+ years later, I humbly regret not having followed this advice back then.** 
 
-If you receive public funding for your research, you gotta pay close attention to the current or upcoming policies on research data management set by the funding agencies - it is such a hot topic right now. **In other words, something similar to [this](http://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf) is coming your way!** 
+If you receive public funding for your research, you better pay close attention to the current or upcoming policies on research data management set by the funding agencies - it is such a hot topic right now! **Something similar to [this](http://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf) is likely coming your way!** 
 
-From the [national funding agencies in Canada](http://www.science.gc.ca/eic/site/063.nsf/eng/h_547652FB.html): 
-
-
-*"[...] the agencies are committed to fostering a robust environment for data management in Canada and internationally, and to ensuring that Canadian researchers are well positioned to contribute to and capitalize on data-intensive science and scholarship. To support these commitments, the agencies expect the researchers they fund to manage their research data with the goal of realizing the greatest possible benefits for the research community and Canadian public."*
+From the [federal funding agencies in Canada](http://www.science.gc.ca/eic/site/063.nsf/eng/h_547652FB.html): 
 
 
+*"[...] the agencies are committed to fostering a robust environment for data management in Canada and internationally, and to ensuring that Canadian researchers are well positioned to contribute to and capitalize on data-intensive science and scholarship. To support these commitments, the agencies expect the researchers they fund to manage their research data with the goal of realizing the greatest possible benefits for the research community and Canadian public."*  
+  
+    
 **Item 4: Create analysis-friendly data.**   
 
 Let's skip it for now - out of scope.     
-
+  
+  
 **Item 5: Record all the steps used to process data.** 
 
-You are about to archive some analysis-friendly data obtained from the raw data available in one of your back-ups. **You want to make sure whatever you did, is reproducible!** *(For a comprehensive taste of the reporducibily crisis in science, see [this](https://www.nature.com/collections/prbfkwmwvz)))*  
+You are about to archive some analysis-friendly data obtained from the raw data available in one of your back-ups. **You want to make sure whatever you did to your data is reproducible!** *(For a comprehensive taste of the reporducibily crisis in science, see [this](https://www.nature.com/collections/prbfkwmwvz)))*  
 
 - If changes to the raw data were done via algorithms, and you have a reproducible code for it, **then you are good to go!** `r emo::ji("clap")`  
-- If not, well, things can get much trickier. Do you really know all the options you clicked to make the spreadsheet you'll be using in further data analysis? A **version control software** solution allows you to track modifications to files within a project. That's not perfect for binary files but helps, and your IT team could assist you here. Feeling brave to give it a try yourself? Check these answers on StackOverflow for SVN solutions on [Windows](https://stackoverflow.com/questions/3376742/setup-an-svn-server), [Linux](https://stackoverflow.com/questions/60736/how-to-set-up-a-subversion-svn-server-on-gnu-linux-ubuntu), and [Mac OS](https://stackoverflow.com/questions/12530085/how-to-setup-svn-on-mac-os-x-10-8-2), and also [here](https://svnvsgit.com/) on why to pick SVN over GIT for your binary files. If you **combine a version control solution with effective back-ups**, get ready to enjoy some serious piece of mind!. 
-
+- If not, well, things can get much trickier. Do you really know/recall all the options you clicked to make the spreadsheet you'll be using in further data analysis? A **version control software** solution allows you to track modifications to files within a project. That's not perfect for binary files but helps, and your IT team could assist you setting this up. **Feeling brave to give it a try yourself?** Check these StackOverflow Q&A for SVN solutions on [Windows](https://stackoverflow.com/questions/3376742/setup-an-svn-server), [Linux](https://stackoverflow.com/questions/60736/how-to-set-up-a-subversion-svn-server-on-gnu-linux-ubuntu), and [Mac OS](https://stackoverflow.com/questions/12530085/how-to-setup-svn-on-mac-os-x-10-8-2), and also [here](https://svnvsgit.com/) on why to pick SVN over GIT for your binary files. 
+  
+If you **combine a version control solution with effective back-ups**, get ready to enjoy some serious piece of mind! 
+  
+  
 **Item 6: Anticipate the need to use multiple tables, and use a unique identifier for every record.**  
 
 Let's skip it for now - out of scope.  
-
+  
+  
 **Item 7: Submit data to a reputable DOI-issuing repository so that others can access and cite it.**  
 
 Park the data where people can easily access it, wether publicly or within your organization. DOI-issuing repositories are helpful as the data can be easily cited whenever necessary. 
@@ -86,9 +91,9 @@ Once you have a system in place, the challenge becomes training the team and enf
 
 ## <span style="color:darkred">Call for action</span>
 
-- **Get help** and start setting your back-up and version control system in place. Say goodbye to those days your data was at risk 24/7! *(no more 'the dog ate my file' or ['I need $30k to get my data back'](https://www.us-cert.gov/Ransomware) excuses)*
+- **Get help** and start setting your back-up and version control systems in place. Say goodbye to those days your data were at risk 24/7! *(no more 'the dog ate my file' or ['I need $30k to get my data back'](https://www.us-cert.gov/Ransomware) excuses)*
 - Enhance your literacy in reseach data management. 
-- Any advance is better than none. Set in your calendar to revisit this topic in 30 days and make sure you have taken solid steps towards better data management practices. 
+- Ensure progress. Set in your calendar to revisit this topic in 30 days and make sure you have taken solid steps towards better data management practices. 
 
 **Cheers!**
 

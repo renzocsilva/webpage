@@ -9,11 +9,15 @@ description: ''
 thumbnail: images/tn.png
 ---
 
-## <span style="color:darkred">WHAT I AM UP TO?</span>
+## WHAT I AM UP TO?
 
-I am eager to share a few experiments & side-projects I have developed over the year. I have also a large wish list of things to complete so expect here a mix of past and future. 
+I am eager to share a few experiments & side-projects I have developed over the years, and glad to have this space to fill with other projects-to-be.
 
 ### <span style="color:darkred">HILL CHARTS</span>
-- **Summary**: I have used Hill Charts since the first day I came to know it via [Basecamp](https://basecamp.com/features/hill-charts). It is an intuitive way to track the advance of a given task, from conception to completion, while having a high-level moving picture of a project.
-- **Where?**: See my [blog post]() and [source code](https://github.com/renzocsilva/hill_chart).   
+
+
+- **Summary**: I have used Hill Charts since the first day I came to know it through [Basecamp](https://basecamp.com/features/hill-charts). It is an intuitive way to track the advance of a given task, from conception to completion, while having a high-level moving picture of a project.
+- **Where?**: See my blog post [here](), source code [here](https://github.com/renzocsilva/hill_chart), and live app [here](https://renzocsilva.ca/hill). 
+
+![](/./experiments_files/hill_chart_template.png){height=350px}
 

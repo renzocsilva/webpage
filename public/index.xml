@@ -27,8 +27,17 @@ Hill Charts  Summary: I have used this since the first day I came to know it via
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/experiments/</guid>
-      <description>WHAT I AM UP TO? I am eager to share a few experiments &amp;amp; side-projects I have developed over the year. I have also a large wish list of things to complete so expect here a mix of past and future.
-HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know it via Basecamp. It is an intuitive way to track the advance of a given task, from conception to completion, while having a high-level moving picture of a project.</description>
+      <description>WHAT I AM UP TO? I am eager to share a few experiments &amp;amp; side-projects I have developed over the years, and glad to have this space to fill with other projects-to-be.
+HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know it through Basecamp. It is an intuitive way to track the advance of a given task, from conception to completion, while having a high-level moving picture of a project.</description>
+    </item>
+    
+    <item>
+      <title>Hill Charts in R</title>
+      <link>/posts/hill-charts-in-r/</link>
+      <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hill-charts-in-r/</guid>
+      <description>Context You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, don’t call it research then. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
     </item>
     
     <item>
@@ -38,17 +47,7 @@ HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know
       
       <guid>/posts/research-data-management-good-enough/</guid>
       <description>Why this post? This post is inspired by the nice (open access!) work of Wilson et al. (2017), in which a set of good enough practices in scientific computing is laid down.
-Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits of research data management, but have not taken their first step in this journey.</description>
-    </item>
-    
-    <item>
-      <title>Hill Charts in R</title>
-      <link>/post/hill-charts-in-r/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hill-charts-in-r/</guid>
-      <description> What is a Hill Chart anyway? https://basecamp.com/features/hill-charts
- Building the tool (basic concepts) #reference https://github.com/rstudio/DT/pull/480  </description>
+Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits on research data management, but are yet to take their first step in this journey.</description>
     </item>
     
     <item>
@@ -57,7 +56,8 @@ Here I build on a subset of topics presented there, discuss a few key points, su
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/a-personal-website-is-born/</guid>
-      <description>RIGHT ON TIME! I&amp;rsquo;ve been thinking about having a personal website for quite a while. Somewhere to host personal and professional ideas/experiences - aka brain dump - that may deserve a dedicated outlet. If the material to be presented here becomes somewhat useful to other folks, then I&amp;rsquo;ll be closer to my main goal of contributing back to this lively community (Note: It is hard to pinpoint one specific theme I&amp;rsquo;ve been tapping knowledge from, e.</description>
+      <description>RIGHT ON TIME! I&amp;rsquo;ve been thinking about having a personal website for quite a while. Somewhere to host personal and professional ideas/experiences - aka brain dump - that may deserve seeing the light of day. If the material to be presented here becomes somewhat useful to other folks, then I&amp;rsquo;ll be closer to my main goal of contributing back to this lively community
+(Note: It is hard to pinpoint one specific theme I&amp;rsquo;ve been tapping knowledge from, e.</description>
     </item>
     
     <item>
@@ -66,17 +66,7 @@ Here I build on a subset of topics presented there, discuss a few key points, su
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>IN A NUTSHELL With 12 years of proactive participation in industrially-funded R&amp;amp;D&amp;amp;I projects, I am enthusiastic about bridging academic and industrial resources to design, develop and deploy science-based solutions to real-world problems. I thrive on developing innovative analytical methods for complex mixture analysis, examining complex datasets, providing credible and meaningful assessments that create value for the project stakeholders, and presenting results in conferences, peer-reviewed papers or confidential reports. While pragmatic when dealing with the tasks at hand, innovation and groundbreaking thinking motivate me.</description>
-    </item>
-    
-    <item>
-      <title>Title</title>
-      <link>/post/template-a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/template-a/</guid>
-      <description>Heading Body
-Cheers!</description>
+      <description>IN A NUTSHELL With 12 years of proactive participation in industrially-funded research|development|innovation projects, I am enthusiastic about bridging academic and industrial resources to design, develop and deploy science-based solutions to real-world problems. I thrive on developing innovative analytical methods for complex mixture analysis, examining complex datasets, providing credible and meaningful assessments that create value for the project stakeholders, and presenting results in conferences, peer-reviewed papers or confidential reports. While pragmatic when dealing with the tasks at hand, innovation and groundbreaking thinking motivate me.</description>
     </item>
     
   </channel>

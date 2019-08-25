@@ -17,18 +17,7 @@
       <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/hill-charts-in-r/</guid>
-      <description> What is a Hill Chart anyway? https://basecamp.com/features/hill-charts
- Building the tool (basic concepts) #reference https://github.com/rstudio/DT/pull/480  </description>
-    </item>
-    
-    <item>
-      <title>Title</title>
-      <link>/post/template-a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/template-a/</guid>
-      <description>Heading Body
-Cheers!</description>
+      <description>Context You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, don’t call it research then. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
     </item>
     
   </channel>
