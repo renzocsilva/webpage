@@ -16,7 +16,7 @@ With 12 years of proactive participation in industrially-funded research|develop
 ---------------------------
 
 * (Current) Research Associate at the University of Calgary, [Department of Geoscience](http://ucalgary.ca/prg).
-* (Current) Co-Founder of [LysisLogic Scientific Inc.](http://lysislogic.com).
+* (Current) Co-Founder of [LysisLogic Scientific Inc](http://lysislogic.com).
 * (Past) Postdoctoral Fellow at the University of Calgary, [Department of Geoscience](http://ucalgary.ca/prg).
 * (Past) Research Laboratory Supervisor at the [LabPetro NCQOP-UFES](http://www.cce.ufes.br/labpetro).
 * (Past) Lecturer at [UCL](https://www.ucl.br/), [CET-FAESA](http://www.cetfaesa.com.br/portal/) and [UFES](http://www.quimica.vitoria.ufes.br/).
@@ -33,7 +33,7 @@ With 12 years of proactive participation in industrially-funded research|develop
 # <i class="fas fa-laptop-code" style="color:darkred"></i> PROGRAMMING & DATA TOOLS
 ---------------------------
 - With hindsight, early exposures to [LOGO](https://en.wikipedia.org/wiki/Logo_(programming_language)) during elementary school, and [HTML](https://en.wikipedia.org/wiki/HTML) during high school had made me very comfortable with the concept of programming. Since 2018, I have invested time and effort to properly learn [R](https://www.r-project.org/). I have also learned to speak basic [SQL](https://en.wikipedia.org/wiki/SQL), [MySQL](https://en.wikipedia.org/wiki/MySQL) and (minimal so far) [DAX - PowerBI](https://en.wikipedia.org/wiki/Data_analysis_expressions). 
-- Regarding the statistical tools I have used: [Minitab](https://www.minitab.com/en-us/) in the good old days, [Matlab PLS_toolbox](http://eigenvector.com/software/pls-toolbox/) when things got serious, and recently **R** to push the boundaries of what is possible. I have a working knowledge of the main supervised and unsupervised machine learning algorithms. Did I mentioned Excel? ::):
+- Regarding the statistical tools I have used: [Minitab](https://www.minitab.com/en-us/) in the good old days, [Matlab PLS_toolbox](http://eigenvector.com/software/pls-toolbox/) when things got serious, and recently **R** to push the boundaries of what is possible. I have a working knowledge of the main supervised and unsupervised machine learning algorithms. Did I mention Excel? :smile:
 
 
 # <i class="fas fa-heart" style="color:darkred"></i> INTERESTS
@@ -41,7 +41,7 @@ With 12 years of proactive participation in industrially-funded research|develop
 ---------------------------
 
 * Applied research and technology development.
-* The complete lifecycle of data X-ing: designing, acquiring, storaging, transforming, processing, vizualizing, interpreting, concluding, deciding, reporting.
+* The complete lifecycle of data X-ing: designing, acquiring, storing, transforming, processing, visualizing, interpreting, concluding, deciding, reporting.
 * New data tools & old scientific challenges (and vice versa).
 * Philomathy (fɪlˈɒməθɪ):  an enjoyment of and passion for learning new facts and acquiring new knowledge.
 

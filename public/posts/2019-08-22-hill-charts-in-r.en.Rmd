@@ -12,30 +12,30 @@ thumbnail: images/tn.png
 
 ## Context 
 
-You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, don't call it **research** then. One specific consequence of this uncertainty is that: **(a)** it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), **(b)** each task may generate **n** daughters, or even totally vanish after proved irrelevant before its completion.
+You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, then don't call it **research**. One specific consequence of this uncertainty is that: **(a)** it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), **(b)** each task may generate **n** daughters, or even totally vanish after proved irrelevant before its completion.
 
 
 ## What is a Hill Chart Anyway?
 
-I serendipitely found [this Basecamp tool](https://basecamp.com/features/hill-charts) a couple of weeks after it was released, and have used it since then. Check how they pitch the concept because it a quite nice one. 
+I serendipitously found [this Basecamp tool](https://basecamp.com/features/hill-charts) a couple of weeks after it was released, and have used it since then. Check how they pitch the concept because it a quite nice one. 
 
-In summary, in each task you have a hill to climb, and the journey upwards represent when you are still trying to figure things out as there may be a few unknowns or some problem-solving required. Once at the top, you can see all the path to completion (i.e., minimized/no uncertanties) and all there is left to do is to go downhill through the execution phase. 
+In summary, each task faces a hill to be climbed, and the journey upwards represent when you are still trying to figure things out as there may be a few unknowns or some problem-solving required. Once at the top, you can see all the path to completion (i.e. minimized/no uncertainties) and all there is left to do is to go downhill through the execution phase. 
 
 ![https://basecamp.com/features/hill-charts](https://basecamp.com/assets/3/hill-charts/uncertainty-certainty-f96f8f64b6e822d64b0055708f7b708e3bf24b98a9dbadb6f486f6e4aedf2dc5.svg)
 
 **Note: I do not use Basecamp, and I am not associated with them!**  
-*I just like the tool, so I had to build one to myself...*
+*I just like the tool, so I had to build one myself...*
 
 
 ## Hill Charts and me
 
-The picture below, although taken with a different purpose, shows how I have initially deployed the hill chart to test it out: whiteboard! I must say people have looked at it and even explaining its concept, their reactions were typically meh. It is ok - it had shown its **usefullness** to me. 
+The picture below, although taken with a different purpose, shows how I have initially deployed the hill chart to test it out: whiteboard! I must say people have looked at it and even explaining its concept, their reactions were typically meh. It is ok - it had shown its **usefulness** to me. 
 
 *(If you read [WHEN, from Daniel Pink](https://www.amazon.com/When-Scientific-Secrets-Perfect-Timing/dp/0735210624) or any other material talking about chronotypes, you know an individual's performance during the day is impacted by both the type of task and the number of hours after waking up or having lunch. Back to the Hill Chart: I have noticed I am more productive tackling the right side of the chart during the mornings.)*
 
-![Yes, I know you can barely see it and the angle is not the best - but in the end that's good as any potentially sensitive information is protected this way ;)](/post/2019-08-22-hill-charts-in-r.en_files/hill_chart_action.jpg)
+![Yes, I know you can barely see it and the angle is not the best - but in the end, that's good as any potentially sensitive information is protected this way ;)](/post/2019-08-22-hill-charts-in-r.en_files/hill_chart_action.jpg)
 
-After attesting its usefulness to my applications, at some point I decided to make a R-Shiny app out of it. So...
+After attesting its usefulness to my applications, at some point I decided to make an R-Shiny app out of it. So...
 
 
 ## This can be useful to you
@@ -46,9 +46,9 @@ After attesting its usefulness to my applications, at some point I decided to ma
 - See [get_hill_chart.R](https://github.com/renzocsilva/hill_chart/blob/master/get_hill_chart.R) for a non-shiny version of the code.   
 - How to use it? Well, it is pretty intuitive! :) 
 - **Note: 0 <= 'Progress' <= 100**  
-- Use the **boormark button** to retrive the app state based on your inputs.
+- Use the **bookmark button** to retrieve the app state based on your inputs.
 
 ## Call for action
 
-I am curious to hear other folks managing research-intensive projects: how do you like vizualizing the evolution of your tasks? Have you ever seen a waterfall breaking apart? :smile:
+I am curious to hear other folks managing research-intensive projects: how do you like visualizing the evolution of your tasks? Have you ever seen a waterfall breaking apart? :smile:
 

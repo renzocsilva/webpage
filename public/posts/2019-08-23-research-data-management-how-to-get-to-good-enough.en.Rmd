@@ -13,7 +13,7 @@ thumbnail: images/tn.png
   
 This post is inspired by the nice (open access!) work of [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510), in which a set of **good enough practices** in scientific computing is laid down. 
 
-Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits on research data management, but are yet to take their first step in this journey.
+Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits on research data management but are yet to take their first step in this journey.
 
 ## <span style="color:darkred">Data management good enough practices</span>
 
@@ -39,7 +39,7 @@ It may seem like a big mountain to climb, but every journey starts with...*(dram
 
 **Items 1 & 2: Save the raw data. Ensure that raw data are backed up in more than one location.**  
 
-If your organization has some IT resources that you can access, **items 1 & 2** are just one phone call or e-mail, plus a few dollars and hours away from being done. Don't be shy and also ask for help with the training of your team, and scheduled back-ups. **Note:** raw data means data that were not altered in any way, exactly as they come from their sources - ensure these files are protected from editing (i.e., read-only). Set you team free for experimenting without the worry of unintantionally damaging you dataset integrity.
+If your organization has some IT resources that you can access, **items 1 & 2** are just one phone call or e-mail, plus a few dollars and hours away from being done. Don't be shy and also ask for help with the training of your team, and scheduled back-ups. **Note:** raw data means data that were not altered in any way, exactly as they come from their sources - ensure these files are protected from editing (i.e., read-only). Set your team free for experimenting without the worry of unintentionally damaging you dataset integrity.
   
   
 **Item 3: Create the data you wish to see in the world.**  
@@ -63,12 +63,12 @@ Let's skip it for now - out of scope.
   
 **Item 5: Record all the steps used to process data.** 
 
-You are about to archive some analysis-friendly data obtained from the raw data available in one of your back-ups. **You want to make sure whatever you did to your data is reproducible!** *(For a comprehensive taste of the reporducibily crisis in science, see [this](https://www.nature.com/collections/prbfkwmwvz)))*  
+You are about to archive some analysis-friendly data obtained from the raw data available in one of your back-ups. **You want to make sure whatever you did to your data is reproducible!** *(For a comprehensive taste of the reproducibily crisis in science, see [this](https://www.nature.com/collections/prbfkwmwvz)))*  
 
 - If changes to the raw data were done via algorithms, and you have a reproducible code for it, **then you are good to go!** `r emo::ji("clap")`  
 - If not, well, things can get much trickier. Do you really know/recall all the options you clicked to make the spreadsheet you'll be using in further data analysis? A **version control software** solution allows you to track modifications to files within a project. That's not perfect for binary files but helps, and your IT team could assist you setting this up. **Feeling brave to give it a try yourself?** Check these StackOverflow Q&A for SVN solutions on [Windows](https://stackoverflow.com/questions/3376742/setup-an-svn-server), [Linux](https://stackoverflow.com/questions/60736/how-to-set-up-a-subversion-svn-server-on-gnu-linux-ubuntu), and [Mac OS](https://stackoverflow.com/questions/12530085/how-to-setup-svn-on-mac-os-x-10-8-2), and also [here](https://svnvsgit.com/) on why to pick SVN over GIT for your binary files. 
   
-If you **combine a version control solution with effective back-ups**, get ready to enjoy some serious piece of mind! 
+If you **combine a version control solution with effective back-ups**, get ready to enjoy some serious peace of mind! 
   
   
 **Item 6: Anticipate the need to use multiple tables, and use a unique identifier for every record.**  
@@ -83,16 +83,16 @@ Park the data where people can easily access it, wether publicly or within your 
 
 ## <span style="color:darkred">Personal experience</span>
 
-At work, we deal with many sources of raw scientific data. Data coming from instruments are immediatly backed-up in a few different locations, including off-site. Data from laboratory procedures are manually converted into raw data files and stored as well. Every team member has a smartpen capable of recording (and backing-up) all the laboratory notes they take (**Items 1 and 2**). An SVN server provides version control capabilities, and users interaction with it are very smooth with [TorsoiseSVN](https://tortoisesvn.net/). Needless to say, the SVN server is also properly backed up (**Item 5**). Sample and work request databases provide the context/metadata info for each acquired raw data as required. 
+At work, we deal with many sources of raw scientific data. Data coming from instruments are immediately backed-up in a few different locations, including off-site. Data from laboratory procedures are manually converted into raw data files and stored as well. Every team member has a smartpen capable of recording (and backing-up) all the laboratory notes they take (**Items 1 and 2**). An SVN server provides version control capabilities, and users interact with it smoothly with [TorsoiseSVN](https://tortoisesvn.net/). Needless to say, the SVN server is also properly backed up (**Item 5**). Sample and work request databases provide the context/metadata info for each acquired raw data as required. 
 
-Regardless of the type of work done by the researcher within a project, SVN "commits" are expected as often as significant advances are made. For projects in which external access to data is required (e.g. off-campus stakeholders), a MySQL server hosted within the University data center feeds a R-Shiny dashboard where stakeholders can interact with data and reports (**Items 3 and 7**). 
+Regardless of the type of work done by the researcher within a project, SVN "commits" are expected as often as significant advances are made. For projects in which external access to data is required (e.g. off-campus stakeholders), a MySQL server hosted within the University data center feeds an R-Shiny dashboard where stakeholders can interact with data and reports (**Items 3 and 7**). 
 
 Once you have a system in place, the challenge becomes training the team and enforcing adherence to the practices you adopt. In academia setting, with people coming and going at an accelerated rate, enforcing is particularly difficult - but there is hope. I'll touch base on this again anytime soon. 
 
 ## <span style="color:darkred">Call for action</span>
 
 - **Get help** and start setting your back-up and version control systems in place. Say goodbye to those days your data were at risk 24/7! *(no more 'the dog ate my file' or ['I need $30k to get my data back'](https://www.us-cert.gov/Ransomware) excuses)*
-- Enhance your literacy in reseach data management. 
+- Enhance your literacy in research data management. 
 - Ensure progress. Set in your calendar to revisit this topic in 30 days and make sure you have taken solid steps towards better data management practices. 
 
 **Cheers!**

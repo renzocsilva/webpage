@@ -37,7 +37,7 @@ HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/hill-charts-in-r/</guid>
-      <description>Context You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, don’t call it research then. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
+      <description>Context You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, then don’t call it research. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know
       
       <guid>/posts/research-data-management-good-enough/</guid>
       <description>Why this post? This post is inspired by the nice (open access!) work of Wilson et al. (2017), in which a set of good enough practices in scientific computing is laid down.
-Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits on research data management, but are yet to take their first step in this journey.</description>
+Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits on research data management but are yet to take their first step in this journey.</description>
     </item>
     
     <item>
