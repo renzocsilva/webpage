@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Renzo C. Silva">
+    <meta name="description" content="/">
+    <meta name="keywords" content="blog,scientist,personal">
+    
+    <meta property="og:site_name" content="Renzo C. Silva">
+    <meta property="og:title" content="
+  USGS Geochemistry Database. Part I: Get that data - Renzo C. Silva
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/post/usgs-geochemdb-part1/">
+    <meta property="og:image" content="/images/tn.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="/post/usgs-geochemdb-part1/">
+    <meta name="twitter:image" content="/images/tn.png">
+
+    <base href="../../post/usgs-geochemdb-part1/">
+    <title>
+  USGS Geochemistry Database. Part I: Get that data - Renzo C. Silva
+</title>
+
+    <link rel="canonical" href="../../post/usgs-geochemdb-part1/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="../../css/normalize.min.css">
+    <link rel="stylesheet" href="../../css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="../../images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="Renzo C. Silva">
+      <link href="../../index.xml" rel="feed" type="application/rss+xml" title="Renzo C. Silva" />
+    
+
+    <meta name="generator" content="Hugo 0.57.2" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806380-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129806380-2');
+</script>
+
+<script src="https://kit.fontawesome.com/f2c6b74af3.js"></script>
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="../../">Renzo C. Silva</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://renzocsilva.ca/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://renzocsilva.ca/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://renzocsilva.ca/experiments">Experiments</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>USGS Geochemistry Database. Part I: Get that data</h1>
+      
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129806380-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129806380-2');
+</script>
+
+    </header>
+
+    
+
+
+<div id="context" class="section level2">
+<h2>Context</h2>
+<p>For reasons beyond the scope of this blog (see <a href="https://doi.org/10.1016/j.orggeochem.2019.103911">this publication</a>, a follow up of my presentation at the <a href="https://www.grc.org/organic-geochemistry-conference/2018/">GRC Organic Geochemistry 2018</a>, I have done some serious data mining within the United States Geological Survey (USGS) Geochemistry Database. Chatting with folks at a conference, I realized many organic geochemists did not know about this resource, and those who knew about it, never went up <a href="https://renzocsilva.ca/posts/hill-charts-in-r/">the hill</a> to check for information nuggets it may contain.</p>
+<p>The goal of this series of posts about the USGS Geochemistry Database is to quick-start anyone remotely interested in exploring it (using R).</p>
+</div>
+<div id="database-information" class="section level2">
+<h2>Database information</h2>
+<p>All you need to know from the USGS Geochemistry Database can be found <a href="https://certmapper.cr.usgs.gov/data/apps/geochem-db/">here</a>. The database contains (geo)chemical analyses data of (allegedly) 200,000+ crude oil, natural gas, coal, water, and rock samples. It is used mostly to assess the oil and gas potential of sedimentary basins.</p>
+<p>The database was made public in a Microsoft Access format (.mdb) with ~ 400 Mb, and it is followed by a very useful excel file with relevant metadata and basic query instructions for those sticking with the Microsoft Access software.</p>
+</div>
+<div id="download-extract" class="section level2">
+<h2>Download –&gt; Extract</h2>
+<p>The only tricky part of accessing the database using R is the use of drivers from the <a href="https://www.rdocumentation.org/packages/RODBC/versions/1.3-15">RODBC</a> library that only work on the R 32-bit version.</p>
+<p>Running the code below, you will end up with two newly created folders: <strong>raw_data</strong>, containing the downloaded zip file plus the extracted database (.mdb) and metadata (.xls) files; and <strong>extracted_data</strong>, containing the whole 2 tables present in the database as .csv files - analysis.csv @ 227 Mb and samples.csv @ 28 Mb, approximately. <strong>Note</strong> that these file sizes make their processing not a challenge for the modal (as opossed to the average) desktop/laptop. On larger datasets, we would be using database queries as inputs to our data analysis down the road.</p>
+<pre class="r"><code>### Environment
+library(RODBC)  ### Note: Must run on R 32-bits version
+
+### User inputs
+download_data &lt;- TRUE # Change to FALSE after 1st execution
+extract_to_csv &lt;- TRUE # Change to FALSE after 1st execution
+
+### Download and unzip
+if (download_data == TRUE) {
+  
+  download.file(
+    &quot;http://certmapper.cr.usgs.gov/data/geochem/tabular/EnergyGeochemistryPublicDB.zip&quot;,
+    &quot;EnergyGeochemistryPublicDB.zip&quot;,
+    mode = &quot;wb&quot;
+  )
+  
+  unzip(&quot;EnergyGeochemistryPublicDB.zip&quot;,
+        files = NULL,
+        exdir = &quot;.&quot;)
+  
+  # Organizing folder - tip: make this raw_data folder read-only!
+  file.rename(&quot;Energy Geochemistry Public DB&quot;, &quot;raw_data&quot;)
+  file.copy(&quot;EnergyGeochemistryPublicDB.zip&quot;,
+            &quot;./raw_data/EnergyGeochemistryPublicDB.zip&quot;)
+  file.remove(&quot;EnergyGeochemistryPublicDB.zip&quot;)
+}
+
+### Extract to csv
+if (extract_to_csv == TRUE) {
+
+  dir.create(&quot;extracted_data&quot;)
+  channel &lt;- odbcConnectAccess(&quot;./raw_data/Energy Geochemistry DB_9_2014.mdb&quot;)
+  write.csv(sqlFetch(channel,&quot;Analysis&quot;), file = &quot;./extracted_data/analysis.csv&quot;)
+  write.csv(sqlFetch(channel,&quot;Samples&quot;), file = &quot;./extracted_data/samples.csv&quot;)
+  close(channel)
+}</code></pre>
+</div>
+<div id="whats-next" class="section level2">
+<h2>What’s next?</h2>
+<p>It may not be a good idea to join the <strong>analysis</strong> and <strong>sample</strong> tables at this point. In Part II of this series, we’ll get to know the data better and proceed with some clean up.</p>
+</div>
+
+  </article>
+</section>
+
+
+      </div>
+      
+    </main>
+
+    
+
+  <script src="../../js/app.js"></script>
+  
+  </body>
+</html>
