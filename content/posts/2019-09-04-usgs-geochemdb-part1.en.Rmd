@@ -36,37 +36,30 @@ library(RODBC)  ### Note: Must run on R 32-bits version
 ### User inputs
 download_data <- TRUE # Change to FALSE after 1st execution
 extract_to_csv <- TRUE # Change to FALSE after 1st execution
+url <-
+  "http://certmapper.cr.usgs.gov/data/geochem/tabular/EnergyGeochemistryPublicDB.zip"
+filename <- "EnergyGeochemistryPublicDB.zip"
 
 ### Download and unzip
 if (download_data == TRUE) {
-  
-  download.file(
-    "http://certmapper.cr.usgs.gov/data/geochem/tabular/EnergyGeochemistryPublicDB.zip",
-    "EnergyGeochemistryPublicDB.zip",
-    mode = "wb"
-  )
-  
-  unzip("EnergyGeochemistryPublicDB.zip",
-        files = NULL,
-        exdir = ".")
+  download.file(url, filename, mode = "wb")
+  unzip(filename)
   
   # Organizing folder - tip: make this raw_data folder read-only!
   file.rename("Energy Geochemistry Public DB", "raw_data")
-  file.copy("EnergyGeochemistryPublicDB.zip",
-            "./raw_data/EnergyGeochemistryPublicDB.zip")
-  file.remove("EnergyGeochemistryPublicDB.zip")
+  file.copy(filename, paste0("./raw_data/", filename))
+  file.remove(filename)
 }
 
 ### Extract to csv
 if (extract_to_csv == TRUE) {
-
   dir.create("extracted_data")
-  channel <- odbcConnectAccess("./raw_data/Energy Geochemistry DB_9_2014.mdb")
-  write.csv(sqlFetch(channel,"Analysis"), file = "./extracted_data/analysis.csv")
-  write.csv(sqlFetch(channel,"Samples"), file = "./extracted_data/samples.csv")
+  channel <-
+    odbcConnectAccess("./raw_data/Energy Geochemistry DB_9_2014.mdb")
+  write.csv(sqlFetch(channel, "Analysis"), file = "./extracted_data/analysis.csv")
+  write.csv(sqlFetch(channel, "Samples"), file = "./extracted_data/samples.csv")
   close(channel)
 }
-
 ```
 
 
