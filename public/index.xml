@@ -13,11 +13,11 @@
     
     <item>
       <title>A new old project</title>
-      <link>/post/a-new-old-project/</link>
+      <link>/posts/a-new-old-project/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/a-new-old-project/</guid>
-      <description>In 2018, I engaged in a project, hired by a small environmental consultancy firm, to develop a web application (R Shiny). The idea was to simply automate part of their typical data processing workflow, for time-saving purposes, and develop a few data vizualization elements to assist in their reporting. As the subject area was not unfamiliar to me, I could confidently go one step further and help improving the workflow per se, including designing and implementing new metrics and processes.</description>
+      <guid>/posts/a-new-old-project/</guid>
+      <description>In 2018, I engaged in a project, hired by a small environmental consultancy firm, to develop a web application (R Shiny). The idea was to simply automate part of their typical data processing workflow, for time-saving purposes, and develop a few data visualization elements to assist in their reporting. As I was familiar with the subject area, I could confidently go one step further and help to improve the workflow per se, including designing and implementing new metrics and processes.</description>
     </item>
     
     <item>

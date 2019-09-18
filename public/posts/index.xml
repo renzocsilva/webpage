@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Renzo C. Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A new old project</title>
+      <link>/posts/a-new-old-project/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/a-new-old-project/</guid>
+      <description>In 2018, I engaged in a project, hired by a small environmental consultancy firm, to develop a web application (R Shiny). The idea was to simply automate part of their typical data processing workflow, for time-saving purposes, and develop a few data visualization elements to assist in their reporting. As I was familiar with the subject area, I could confidently go one step further and help to improve the workflow per se, including designing and implementing new metrics and processes.</description>
+    </item>
     
     <item>
       <title>USGS Geochemistry Database. Part I: Get that data</title>
