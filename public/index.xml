@@ -26,7 +26,7 @@
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/usgs-geochemdb-part1/</guid>
-      <description>Context For reasons beyond the scope of this blog (see this publication, a follow up of my presentation at the GRC Organic Geochemistry 2018, I have done some serious data mining within the United States Geological Survey (USGS) Geochemistry Database. Chatting with folks at a conference, I realized many organic geochemists did not know about this resource, and those who knew about it, never went up the hill to check for information nuggets it may contain.</description>
+      <description>Context For reasons beyond the scope of this blog (see this publication, a follow up of my presentation at the GRC Organic Geochemistry 2018, I have done some serious data mining within the United States Geological Survey (USGS) Geochemistry Database. While chatting with peers at a conference, I realized many organic geochemists did not know about this resource, and those who knew about it, never went up the hill to check for information nuggets it may contain.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/hill-charts-in-r/</guid>
-      <description>Context You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, then don’t call it research. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
+      <description>Context You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is 100% sure of its results, well, then don’t call it research!. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
     </item>
     
     <item>

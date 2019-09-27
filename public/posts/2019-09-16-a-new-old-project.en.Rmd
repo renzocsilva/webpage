@@ -35,10 +35,9 @@ The [USGS Database post series](https://renzocsilva.ca/posts/usgs-geochemdb-part
 If you are unfamiliar with R Markdown, see [this](https://rmarkdown.rstudio.com/authoring_quick_tour.html#overview) and [this](https://rmarkdown.rstudio.com/lesson-1.html) - and of course, [this book](https://bookdown.org/yihui/rmarkdown/) and the [R Markdown cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf). It will quickly become obvious it is a powerful tool to create documents for presentations, code documentation, teaching, and beyond. Check the [R Markdown gallery](https://rmarkdown.rstudio.com/gallery.html) for examples of utilization. There are a few extra resources you can use to 'beautify' your rendered documents, such as [this](https://cran.r-project.org/web/packages/prettydoc/vignettes/hpstr.html) and [this](https://slides.yihui.name/xaringan/). 
 
 
-Particularly useful to those starting to try R Markdown out, [Holtz Yan](https://github.com/holtzy/) prepared a very nice [compilation](https://holtzy.github.io/Pimp-my-rmd/) of quick tricks to customize R Markdown documents. 
+Particularly useful to those starting to try R Markdown out, [Holtz Yan](https://github.com/holtzy/) prepared a very nice [compilation](https://holtzy.github.io/Pimp-my-rmd/) of quick tricks to customize R Markdown documents.  
 
-Cheers!
-
+**Cheers!**
 
 
 

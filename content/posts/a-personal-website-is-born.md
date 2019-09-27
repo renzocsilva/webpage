@@ -16,7 +16,7 @@ My interests, combined with my experiences in programming and data tools (see th
 
 Let's start with sharing (*and hopefully good karma!*): you can find the [R-Blogdown](https://bookdown.org/yihui/blogdown/) code used to build this website [here](https://github.com/renzocsilva/webpage), and the original Hugo theme I used [here](https://github.com/naro143/hugo-coder-portfolio).
 
-On a side note, here is a big shout-out to a few folks whose content and creativity indirectly inspired this initiative [Dean Attali](https://deanattali.com/), [Yihui Xie](https://yihui.name) and [Bruno Hildenbrand](https://blog.hildenco.com/).
+**On a side note**, here is a big shout-out to a few folks whose content and creativity indirectly inspired this initiative: [Dean Attali](https://deanattali.com/), [Yihui Xie](https://yihui.name) and [Bruno Hildenbrand](https://blog.hildenco.com/).
 
 **Cheers!**
 

@@ -12,7 +12,7 @@ thumbnail: images/tn.png
 
 ## Context 
 
-You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is a100% sure of its results, well, then don't call it **research**. One specific consequence of this uncertainty is that: **(a)** it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), **(b)** each task may generate **n** daughters, or even totally vanish after proved irrelevant before its completion.
+You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is 100% sure of its results, well, then don't call it **research!**. One specific consequence of this uncertainty is that: **(a)** it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), **(b)** each task may generate **n** daughters, or even totally vanish after proved irrelevant before its completion.
 
 
 ## What is a Hill Chart Anyway?
@@ -29,7 +29,7 @@ In summary, each task faces a hill to be climbed, and the journey upwards repres
 
 ## Hill Charts and me
 
-The picture below, although taken with a different purpose, shows how I have initially deployed the hill chart to test it out: whiteboard! I must say people have looked at it and even explaining its concept, their reactions were typically meh. It is ok - it had shown its **usefulness** to me. 
+The picture below, although taken with a different purpose, shows how I have initially deployed the hill chart to test it out: whiteboard! I must say people have looked at it and even after I explained its concept, their reactions were typically **meh**. It is ok - it had shown its **usefulness** to me. 
 
 *(If you read [WHEN, from Daniel Pink](https://www.amazon.com/When-Scientific-Secrets-Perfect-Timing/dp/0735210624) or any other material talking about chronotypes, you know an individual's performance during the day is impacted by both the type of task and the number of hours after waking up or having lunch. Back to the Hill Chart: I have noticed I am more productive tackling the right side of the chart during the mornings.)*
 

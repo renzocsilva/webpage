@@ -123,8 +123,8 @@
 
 <div id="context" class="section level2">
 <h2>Context</h2>
-<p>For reasons beyond the scope of this blog (see <a href="https://doi.org/10.1016/j.orggeochem.2019.103911">this publication</a>, a follow up of my presentation at the <a href="https://www.grc.org/organic-geochemistry-conference/2018/">GRC Organic Geochemistry 2018</a>, I have done some serious data mining within the United States Geological Survey (USGS) Geochemistry Database. Chatting with folks at a conference, I realized many organic geochemists did not know about this resource, and those who knew about it, never went up <a href="https://renzocsilva.ca/posts/hill-charts-in-r/">the hill</a> to check for information nuggets it may contain.</p>
-<p>The goal of this series of posts about the USGS Geochemistry Database is to quick-start anyone remotely interested in exploring it (using R).</p>
+<p>For reasons beyond the scope of this blog (see <a href="https://doi.org/10.1016/j.orggeochem.2019.103911">this publication</a>, a follow up of my presentation at the <a href="https://www.grc.org/organic-geochemistry-conference/2018/">GRC Organic Geochemistry 2018</a>, I have done some serious data mining within the <strong>United States Geological Survey (USGS) Geochemistry Database</strong>. While chatting with peers at a conference, I realized many organic geochemists did not know about this resource, and those who knew about it, never went up <a href="https://renzocsilva.ca/posts/hill-charts-in-r/">the hill</a> to check for information nuggets it may contain.</p>
+<p>The goal of this series of posts about the USGS Geochemistry Database is to quick-start anyone remotely interested in exploring it. I’ll be using <strong>R</strong>, but considering many still like doing their magic using a spreadsheet, I’ll be spitting our any intermediate data table as <strong>.csv</strong> for such users.</p>
 </div>
 <div id="database-information" class="section level2">
 <h2>Database information</h2>
@@ -133,8 +133,8 @@
 </div>
 <div id="download-extract" class="section level2">
 <h2>Download –&gt; Extract</h2>
-<p>The only tricky part of accessing the database using R is the use of drivers from the <a href="https://www.rdocumentation.org/packages/RODBC/versions/1.3-15">RODBC</a> library that only work on the R 32-bit version.</p>
-<p>Running the code below, you will end up with two newly created folders: <strong>raw_data</strong>, containing the downloaded zip file plus the extracted database (.mdb) and metadata (.xls) files; and <strong>extracted_data</strong>, containing the whole 2 tables present in the database as .csv files - analysis.csv @ 227 Mb and samples.csv @ 28 Mb, approximately. <strong>Note</strong> that these file sizes make their processing not a challenge for the modal (as opossed to the average) desktop/laptop. On larger datasets, we would be using database queries as inputs to our data analysis down the road.</p>
+<p>The only tricky part of accessing the database using R is the use of drivers from the <a href="https://www.rdocumentation.org/packages/RODBC/versions/1.3-15">RODBC</a> library that only work on the <strong>R 32-bit version</strong>.</p>
+<p>Running the code below, you will end up with two newly created folders: <strong>raw_data</strong>, containing the downloaded zip file plus the extracted database (.mdb) and metadata (.xls) files; and <strong>extracted_data</strong>, containing the whole 2 tables present in the database as .csv files - analysis.csv @ 227 Mb and samples.csv @ 28 Mb, approximately. <strong>Note</strong> that these file sizes make their processing not a challenge for the <a href="https://www.npr.org/2019/08/28/755191639/episode-936-the-modal-american">modal</a> (as opossed to the average) desktop/laptop. On larger datasets, we would be using database queries as inputs to our data analysis down the road.</p>
 <pre class="r"><code>### Environment
 library(RODBC)  ### Note: Must run on R 32-bits version
 
@@ -169,6 +169,7 @@ if (extract_to_csv == TRUE) {
 <div id="whats-next" class="section level2">
 <h2>What’s next?</h2>
 <p>It may not be a good idea to join the <strong>analysis</strong> and <strong>sample</strong> tables at this point. In Part II of this series, we’ll get to know the data better and proceed with some clean up.</p>
+<p><strong>Cheers!</strong></p>
 </div>
 
   </article>
