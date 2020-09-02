@@ -26,7 +26,7 @@
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/usgs-geochemdb-part1/</guid>
-      <description>Context For reasons beyond the scope of this blog (see this publication, a follow up of my presentation at the GRC Organic Geochemistry 2018, I have done some serious data mining within the United States Geological Survey (USGS) Geochemistry Database. While chatting with peers at a conference, I realized many organic geochemists did not know about this resource, and those who knew about it, never went up the hill to check for information nuggets it may contain.</description>
+      <description>ContextFor reasons beyond the scope of this blog (see this publication, a follow up of my presentation at the GRC Organic Geochemistry 2018, I have done some serious data mining within the United States Geological Survey (USGS) Geochemistry Database. While chatting with peers at a conference, I realized many organic geochemists did not know about this resource, and those who knew about it, never went up the hill to check for information nuggets it may contain.</description>
     </item>
     
     <item>
@@ -35,8 +35,8 @@
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/experiments/</guid>
-      <description>HOME - What I am up to? I have been involved in several data projects, but most of them won’t see the light of the day. There are a few things though, mostly on the personal side, that I am eager to share - here you’ll find a list of such projects.
-Hill Charts  Summary: I have used this since the first day I came to know it via Basecamp - Hill Charts.</description>
+      <description>HOME - What I am up to?I have been involved in several data projects, but most of them won’t see the light of the day. There are a few things though, mostly on the personal side, that I am eager to share - here you’ll find a list of such projects.
+Hill ChartsSummary: I have used this since the first day I came to know it via Basecamp - Hill Charts.</description>
     </item>
     
     <item>
@@ -45,8 +45,8 @@ Hill Charts  Summary: I have used this since the first day I came to know it via
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/experiments/</guid>
-      <description>WHAT I AM UP TO? I am eager to share a few experiments &amp;amp; side-projects I have developed over the years, and glad to have this space to fill with other projects-to-be.
-HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know it through Basecamp. It is an intuitive way to track the advance of a given task, from conception to completion, while having a high-level moving picture of a project.</description>
+      <description>WHAT I AM UP TO?I am eager to share a few experiments &amp;amp; side-projects I have developed over the years, and glad to have this space to fill with other projects-to-be.
+HILL CHARTSSummary: I have used Hill Charts since the first day I came to know it through Basecamp. It is an intuitive way to track the advance of a given task, from conception to completion, while having a high-level moving picture of a project.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/hill-charts-in-r/</guid>
-      <description>Context You may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is 100% sure of its results, well, then don’t call it research!. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
+      <description>ContextYou may be managing a complex project or only focusing on specific tasks at hand. In research projects, the outcomes carry with them uncertainty - if one is 100% sure of its results, well, then don’t call it research!. One specific consequence of this uncertainty is that: (a) it is hard to quantify progress on a given task (e.g. is it 75 or 80% completed?), (b) each task may generate n daughters, or even totally vanish after proved irrelevant before its completion.</description>
     </item>
     
     <item>
@@ -64,7 +64,7 @@ HILL CHARTS  Summary: I have used Hill Charts since the first day I came to know
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/research-data-management-good-enough/</guid>
-      <description>Why this post? This post is inspired by the nice (open access!) work of Wilson et al. (2017), in which a set of good enough practices in scientific computing is laid down.
+      <description>Why this post?This post is inspired by the nice (open access!) work of Wilson et al. (2017), in which a set of good enough practices in scientific computing is laid down.
 Here I build on a subset of topics presented there, discuss a few key points, suggest external resources, and share personal experiences for those that have recognized the importance of changing their habits on research data management but are yet to take their first step in this journey.</description>
     </item>
     

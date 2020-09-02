@@ -1,7 +1,7 @@
 #https://github.com/naro143/hugo-coder-portfolio
 
 baseurl = "http://renzocsilva.ca/"
-title = "Renzo C. Silva"
+Title = "Renzo C. Silva"
 relativeurls = true
 enableEmoji = true
 
@@ -89,14 +89,14 @@ disqusShortname = ""
             [[languages.en.menu.main]]
                 name = "About"
                 weight = 1.0
-                url = "http://renzocsilva.ca/about"
+                url = "/about"
 
             [[languages.en.menu.main]]
                 name = "Blog"
                 weight = 2.0
-                url = "http://renzocsilva.ca/posts"
+                url = "/posts"
 
             [[languages.en.menu.main]]
                 name = "Experiments"
                 weight = 3
-                url = "http://renzocsilva.ca/experiments"
+                url = "/experiments"
